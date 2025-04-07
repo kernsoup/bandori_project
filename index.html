@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prefect Flow Runner</title>
+    <script type='text/javascript' src="static/script.js"></script>
+</head>
+<body>
+    <h1>Run Prefect Flow</h1>
+    <input type="text" id="name" placeholder="Enter your name">
+    <button onclick=runFlow()>Run Flow</button>
+    <p id="result"></p>
+    <script>
+        // async function runFlow() {
+        //     const name = document.getElementById("name").value;
+        //     const response = await fetch('/run-flow', {
+        //         method: 'POST',
+        //         headers: {
+        //             'Content-Type': 'application/json'
+        //         },
+        //         body: JSON.stringify({ name })
+        //     });
+        //     const data = await response.json();
+        //     // document.getElementById("result").innerText = data.result;
+        //     document.getElementById("result").innerText = data.result[0]["id"];
+        // }
+
+        // runFlow();
+
+    </script>
+</body>
+</html>
+
